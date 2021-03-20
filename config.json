@@ -1,0 +1,16 @@
+{
+    "DEFAULT_MODEL_NAME": "distilbert-base-uncased",
+    "DEFAULT_MODEL": "models/default/pytorch_model.bin",
+    "DEFAULT_CLASS_NAMES": ["admiration", "amusement", "anger", "annoyance", "approval", "caring", 
+          "confusion", "curiosity", "desire", "disappointment", "disapproval",
+          "disgust", "embarrassment", "excitement", "fear", "gratitude", "grief",
+          "joy", "love", "nervousness", "optimism", "pride", "realization",
+          "relief", "remorse", "sadness", "surprise", "neutral"],
+
+    "POS_NEG_CLASS_NAMES" : ["positive", "positive", "negative", "negative", "positive", "positive", 
+          "negative", "neutral", "positive", "negative", "negative",
+          "negative", "negative", "positive", "negative", "positive", "negative",
+          "positive", "positive", "negative", "positive", "positive", "neutral",
+          "positive", "negative", "negative", "positive", "neutral"],    
+    "POS_NEG_MODEL": "models/pos_neg/pytorch_model.bin"
+}
