@@ -8,8 +8,8 @@ uvicorn routes.api:app
 
 There are two API calls:
 
--- detect_emotion_full (Returns from a list of emotions)
--- detect_emotion_binary (Return 'positive' or 'negative' as class)
+- detect_emotion_full (Returns from a list of emotions)
+- detect_emotion_binary (Return 'positive' or 'negative' as class)
 
 ### Sample API calls
 
